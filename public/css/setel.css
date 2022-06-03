@@ -1,0 +1,102 @@
+.rekomendasi {
+  background-color: #BBCECC !important;
+  padding: 1rem 1rem;
+}
+.btn-primary {
+  background-color: #3A9188 !important;
+  border: none !important;
+}
+
+
+.btn-primary:focus {
+  box-shadow: none !important;
+  outline: 4.5px #3A9188 solid !important;
+}
+
+
+main{
+  width: 65%;
+  height: 600px;
+  background-color: #BBCECC;
+
+}
+
+aside{
+  width: 35%;
+  height: 600px;
+}
+
+.jumbotron {
+  background-color: #3A9188;
+  width: 1000px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 25px 25px 25px 25px;
+ }
+
+ .resepsaya {
+  padding: 1rem 1rem;
+}
+
+.btn-success {
+  background-color: #3A9188 !important;
+  border: none !important;
+  color :#ffff !important;
+}
+
+.btn-success:focus {
+  box-shadow: none !important;
+  outline: 1px #3A9188 solid !important;
+}
+
+.btn-light {
+  background-color: #ffff !important;
+  border: none !important;
+  color :#3A9188 !important;
+}
+
+.btn-light:focus {
+  box-shadow: none !important;
+  outline: 3px #ffff solid !important;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+}
+
+.profil {
+  width: 70%;
+  height: 100%;
+
+}
+
+.leftbar {
+  width: 40%;
+  height: 100%;
+}
+
+.rightbar {
+  width: 60%;
+  height: 100%;
+}
+
+a{
+  color: #000;
+}
+
+.zoom:hover {
+    width: 90%;
+    height: 90%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.transisi {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+

@@ -1,0 +1,25 @@
+app				: file utama
+	core 		: inti mvc
+	controllers	: kendali
+	views		: tampilan
+	models		: database
+	config		: konstanta
+
+
+public		: bisa diakses user
+	index	: inti halaman
+	css		: style
+	img		: gambar
+	js		: logika
+
+
+
+App: menuliskan apapun dari url
+init: memangil semua file yang dibutuhkan (boostraping)
+.htaccess = memblok akses user
+
+TEKNIK BOOTSRAPING
+- Yang dipanggil hanya 1 file, index.php
+- lalu file index memanggil file init yang ada di folder app
+- di file init memanggil semua file yang kita butuhkan
+- anggap semuanya kita ada di file index dari public
